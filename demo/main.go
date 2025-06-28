@@ -57,8 +57,8 @@ func plotArrow(p *plot.Plot, x, y, yaw float64, isStart bool) {
 }
 
 func main() {
-	startX, startY, startYaw := -5.0, 5.0, reedsshepp.Deg2rad(90)
-	endX, endY, endYaw := 1.0, 2.0, reedsshepp.Deg2rad(90)
+	startX, startY, startYaw := -5.0, -5.0, reedsshepp.Deg2rad(-270)
+	endX, endY, endYaw := -5.0, 10.0, reedsshepp.Deg2rad(-180)
 	maxCurvature := 2.0
 	stepSize := 0.1
 
